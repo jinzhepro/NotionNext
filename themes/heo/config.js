@@ -22,7 +22,7 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'JINZHEPRO.COM',
   HEO_HERO_TITLE_4: '',
   HEO_HERO_TITLE_5: '',
-  HEO_HERO_TITLE_LINK: '',
+  HEO_HERO_TITLE_LINK: '#',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
@@ -45,12 +45,12 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD_URL1: '/about',
-  HEO_INFO_CARD_ICON1: 'fas fa-user',
+  HEO_INFO_CARD_URL1: '',
+  HEO_INFO_CARD_ICON1: '',
   HEO_INFO_CARD_URL2: '',
   HEO_INFO_CARD_ICON2: '',
-  HEO_INFO_CARD_URL3: '',
-  HEO_INFO_CARD_TEXT3: '',
+  HEO_INFO_CARD_URL3: '/about',
+  HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
