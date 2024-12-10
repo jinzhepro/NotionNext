@@ -89,9 +89,9 @@ function Banner(props) {
           <br />
           {siteConfig('HEO_HERO_TITLE_2', null, CONFIG)}
         </div>
-        // <div className='text-xs text-gray-600  dark:text-gray-200'>
-        //   {siteConfig('HEO_HERO_TITLE_3', null, CONFIG)}
-        // </div>
+        <div className='text-xs text-gray-600  dark:text-gray-200'>
+          {siteConfig('HEO_HERO_TITLE_3', null, CONFIG)}
+        </div>
       </div>
 
       {/* 斜向滚动的图标 */}
