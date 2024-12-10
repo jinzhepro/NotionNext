@@ -47,8 +47,8 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/jinzhepro',
-  HEO_INFO_CARD_ICON2: 'fab fa-github',
+  HEO_INFO_CARD_URL2: '',
+  HEO_INFO_CARD_ICON2: '',
   HEO_INFO_CARD_URL3: 'https://jinzhepro.cc',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
