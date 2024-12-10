@@ -49,8 +49,8 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: '',
   HEO_INFO_CARD_ICON2: '',
-  HEO_INFO_CARD_URL3: 'https://jinzhepro.cc',
-  HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_URL3: '',
+  HEO_INFO_CARD_TEXT3: '',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
