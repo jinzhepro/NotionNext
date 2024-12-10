@@ -352,57 +352,8 @@ function TodayCard({ cRef, siteInfo }) {
   }
 
   return (
-    <div
-      id='today-card'
-      className={`${
-        isCoverUp ? ' ' : 'pointer-events-none'
-      } overflow-hidden absolute hidden xl:flex flex-1 flex-col h-full top-0 w-full`}>
-      <div
-        id='card-body'
-        onClick={handleCardClick}
-        className={`${
-          isCoverUp
-            ? 'opacity-100 cursor-pointer'
-            : 'opacity-0 transform scale-110 pointer-events-none'
-        } shadow transition-all duration-200 today-card h-full bg-black rounded-xl relative overflow-hidden flex items-end`}>
-        {/* 卡片文字信息 */}
-        <div
-          id='today-card-info'
-          className='flex justify-between w-full relative text-white p-10 items-end'>
-          <div className='flex flex-col'>
-            <div className='text-xs font-light'>
-              {siteConfig('HEO_HERO_TITLE_4', null, CONFIG)}
-            </div>
-            <div className='text-3xl font-bold'>
-              {siteConfig('HEO_HERO_TITLE_5', null, CONFIG)}
-            </div>
-          </div>
-          {/* 查看更多的按钮 */}
-          <div
-            onClick={handleClickShowMore}
-            className={`'${isCoverUp ? '' : 'hidden pointer-events-none'} z-10 group flex items-center px-3 h-10 justify-center  rounded-3xl
-            glassmorphism transition-colors duration-100 `}>
-            <PlusSmall
-              className={
-                'group-hover:rotate-180 duration-500 transition-all w-6 h-6 mr-2 bg-white rounded-full stroke-black'
-              }
-            />
-            <div id='more' className='select-none'>
-              {locale.COMMON.RECOMMEND_POSTS}
-            </div>
-          </div>
-        </div>
-
-        {/* 封面图 */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={siteInfo?.pageCover}
-          id='today-card-cover'
-          className={`${
-            isCoverUp ? '' : ' pointer-events-none'
-          } hover:scale-110 duration-1000 object-cover cursor-pointer today-card-cover absolute w-full h-full top-0`}
-        />
-      </div>
+    <div>
+     
     </div>
   )
 }
