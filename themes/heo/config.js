@@ -20,8 +20,8 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'JINZHEPRO.COM',
-  HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: '',
+  HEO_HERO_TITLE_4: '不止技术',
+  HEO_HERO_TITLE_5: '记录生活和瞬间',
   HEO_HERO_TITLE_LINK: '#',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
