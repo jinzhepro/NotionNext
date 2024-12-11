@@ -153,7 +153,7 @@ const Header = props => {
             id='nav-bar-swipe'
             className={`hidden lg:flex flex-grow flex-col items-center justify-center h-full relative w-full`}>
             <div
-              className={`absolute transition-all duration-700 ${activeIndex === 0 ? 'opacity-100 mt-0' : '-mt-20 opacity-0 invisible'}`}>
+              className={`absolute transition-all duration-700`}>
               <MenuListTop {...props} />
             </div>
             // <div
