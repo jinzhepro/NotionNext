@@ -111,7 +111,6 @@ const Header = props => {
             transform: translateY(0);
           }
         }
-
         @keyframes fade-in-up {
           0% {
             opacity: 0.5;
@@ -122,11 +121,9 @@ const Header = props => {
             transform: translateY(0);
           }
         }
-
         .fade-in-down {
           animation: fade-in-down 0.3s ease-in-out;
         }
-
         .fade-in-up {
           animation: fade-in-up 0.3s ease-in-out;
         }
@@ -153,8 +150,15 @@ const Header = props => {
             id='nav-bar-swipe'
             className={`hidden lg:flex flex-grow flex-col items-center justify-center h-full relative w-full`}>
             <div
-              className={`absolute transition-all duration-700`}>
+              className={`absolute transition-all duration-700 ${activeIndex === 0 ? 'opacity-100 mt-0' : '-mt-20 opacity-0 invisible'}`}>
               <MenuListTop {...props} />
+            </div>
+            <div
+              className={`absolute transition-all duration-700 ${activeIndex === 1 ? 'opacity-100 mb-0' : '-mb-20 opacity-0 invisible'}`}>
+              <h1 className='font-bold text-center text-light-400 dark:text-gray-400'>
+                {siteConfig('AUTHOR') || siteConfig('TITLE')}{' '}
+                {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
+              </h1>
             </div>
           </div>
 
